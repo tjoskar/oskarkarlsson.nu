@@ -1,4 +1,1 @@
-oskarkarlsson.nu
-================
-
-http://oskarkarlsson.nu
+The http://oskarkarlsson.nu website
