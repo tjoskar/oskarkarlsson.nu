@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Oskar Karlsson</title>
-    <link href="css/vendor/normalize.css" rel="stylesheet">
-    <link href="css/I_Will_Make_You_Pretty.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-</head>
-<body>
+    <link href="css/vendor/normalize.css" rel="stylesheet" />
+    <style>
+      html {
+        background: url(../img/bg.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+      .wrapper {
+        font-family: "Lato", sans-serif;
+        padding-top: 50px;
+        margin: 0 auto 0 auto;
+        width: 580px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 70px;
+        font-weight: 100;
+        color: #333;
+        margin: 0;
+      }
+      a.mail {
+        font-size: 24px;
+        font-weight: 300;
+        color: #ddd;
+        text-decoration: none;
+        margin: 0;
+      }
 
-<div class="wrapper">
-    <h1>Oskar Karlsson</h1>
-    <a href="mailto:kontakta@oskarkarlsson.nu?subject=Tjena" target="_blank" class="mail">
+      .icon-set {
+        margin-top: 100px;
+        display: -webkit-flex;
+        display: flex;
+      }
+
+      .icon {
+        width: 128px;
+        height: 128px;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex: 1;
+        transition: all 0.7s ease-out;
+      }
+
+      #github {
+        background-image: url(../img/icon/github-128-black.png);
+      }
+      #github:hover {
+        background-color: #1abc9c;
+      }
+
+      #episodehunter {
+        background-image: url(../img/icon/episodehunter-128-black.png);
+      }
+      #episodehunter:hover {
+        background-color: #34495e;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Oskar Karlsson</h1>
+      <a
+        href="mailto:kontakta@oskarkarlsson.nu?subject=Tjena"
+        target="_blank"
+        class="mail"
+      >
         Kontakta@OskarKarlsson.nu
-    </a>
+      </a>
 
-    <div class="icon-set">
+      <div class="icon-set">
         <a href="https://github.com/tjoskar" class="icon" id="github"></a>
-        <a href="https://twitter.com/OskarKarlsson" class="icon" id="twitter"></a>
         <a href="http://episodehunter.tv" class="icon" id="episodehunter"></a>
+      </div>
     </div>
-</div>
-
-</body>
+  </body>
 </html>
